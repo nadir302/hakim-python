@@ -1,5 +1,5 @@
 #exercice1
- class Cat:
+class Cat:
     def __init__(self, cat_name, cat_age):
         self.name = cat_name
         self.age = cat_age
