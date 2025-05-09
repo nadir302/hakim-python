@@ -26,6 +26,13 @@ if user_name == my_name:
     print(f"Whoa! We have the same name, {user_name}! 🎉 Are you me from an alternate universe?")
 else:
     print(f"Hi {user_name}! Cute name, but I still prefer '{my_name}' 😏")
+    
+
+ 
+ 
+
+ 
+ 
 
 
 
@@ -46,7 +53,7 @@ if height > 145:
 else:
     print("Sorry, you need to grow some more to ride.  ")
 
-
+ 
 
 
 
@@ -73,9 +80,21 @@ our_fav_numbers = my_fav_numbers.union(friend_fav_numbers)
  
 print("Our favorite numbers:", our_fav_numbers)
 
+# exercice 6
 
+my_tuple = (1, 2, 3)
 
+ 
+my_list = list(my_tuple)
 
+ 
+my_list.append(4)
+my_list.extend([5, 6])
+
+ 
+my_tuple = tuple(my_list)
+
+print(my_tuple)    
 
 
 
